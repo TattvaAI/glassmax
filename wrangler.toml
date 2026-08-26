@@ -9,3 +9,11 @@ command = "npm run build"
 directory = "./dist"
 not_found_handling = "single-page-application"
 binding = "ASSETS"
+
+[[routes]]
+pattern = "glassmax.in/*"
+zone_name = "glassmax.in"
+
+[[routes]]
+pattern = "www.glassmax.in/*"
+zone_name = "glassmax.in"
