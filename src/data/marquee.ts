@@ -1,0 +1,15 @@
+export const marqueeItems: string[] = [
+  'Round Bottom Flask',
+  'Volumetric Flask',
+  'Soxhlet Apparatus',
+  'Condenser',
+  'Distillation Unit',
+  'Separatory Funnel',
+  'Beaker',
+  'Measuring Cylinder',
+  'Burette',
+  'Laboratory Stand',
+  'Glass Reactor',
+  'Amber Glassware',
+  'Laboratory Accessories',
+];
