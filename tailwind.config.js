@@ -25,6 +25,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         ink: "var(--ink)",
+        whatsapp: {
+          DEFAULT: "#25D366",
+          hover: "#20ba5a",
+          dark: "#128C7E",
+        },
         primary: {
           DEFAULT: "var(--primary)",
           foreground: "var(--primary-foreground)",

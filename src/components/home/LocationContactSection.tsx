@@ -168,7 +168,7 @@ export const LocationContactSection: React.FC = () => {
                     href={getWhatsAppUrl()}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--color-whatsapp)] px-6 py-3.5 text-sm font-semibold text-white shadow-soft transition-transform hover:scale-105"
+                    className="inline-flex items-center justify-center gap-2 rounded-full bg-whatsapp hover:bg-whatsapp-hover px-6 py-3.5 text-sm font-semibold text-white shadow-soft transition-all hover:scale-105"
                   >
                     <MessageCircle className="h-5 w-5" />
                     WhatsApp Chat

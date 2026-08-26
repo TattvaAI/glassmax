@@ -22,7 +22,10 @@
   --accent-foreground: oklch(30% 0.06 258);
   --destructive: oklch(58% 0.23 27);
   --destructive-foreground: oklch(99% 0.01 255);
-  --whatsapp: oklch(66% 0.17 152);
+  --whatsapp: #25D366;
+  --whatsapp-hover: #20ba5a;
+  --color-whatsapp: #25D366;
+  --color-secondary: oklch(96.5% 0.012 250);
   --border: oklch(92% 0.012 252);
   --input: oklch(92% 0.012 252);
   --ring: oklch(58% 0.21 258);

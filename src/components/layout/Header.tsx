@@ -12,7 +12,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: 'Home', to: '/' },
-  { label: 'About', to: '/', hash: 'about' },
+  { label: 'About Us', to: '/', hash: 'about' },
   { label: 'Products', to: '/products' },
   { label: 'Reviews', to: '/', hash: 'reviews' },
   { label: 'Contact', to: '/', hash: 'contact' },
@@ -118,7 +118,7 @@ export const Header: React.FC = () => {
             href={getWhatsAppUrl()}
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-2 inline-flex items-center gap-2 rounded-full bg-[var(--color-whatsapp)] px-4 py-2 text-sm font-semibold text-white shadow-soft transition-transform hover:scale-105"
+            className="ml-2 inline-flex items-center gap-2 rounded-full bg-whatsapp hover:bg-whatsapp-hover px-4 py-2 text-sm font-semibold text-white shadow-soft transition-all hover:scale-105"
           >
             <MessageCircle className="h-4 w-4" />
             WhatsApp
@@ -162,7 +162,7 @@ export const Header: React.FC = () => {
                 href={getWhatsAppUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-2 inline-flex items-center justify-center gap-2 rounded-lg bg-[var(--color-whatsapp)] px-4 py-3 text-base font-semibold text-white shadow-sm"
+                className="mt-2 inline-flex items-center justify-center gap-2 rounded-lg bg-whatsapp hover:bg-whatsapp-hover px-4 py-3 text-base font-semibold text-white shadow-sm transition-colors"
               >
                 <MessageCircle className="h-5 w-5" />
                 Chat on WhatsApp

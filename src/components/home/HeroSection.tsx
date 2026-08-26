@@ -87,7 +87,7 @@ export const HeroSection: React.FC = () => {
             href={getWhatsAppUrl()}
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2 rounded-full border border-white/40 bg-white/10 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur transition-all hover:scale-105 hover:bg-[var(--color-whatsapp)] hover:border-transparent shadow-sm"
+            className="group inline-flex items-center gap-2 rounded-full bg-whatsapp hover:bg-whatsapp-hover px-7 py-3.5 text-sm font-semibold text-white shadow-soft transition-all hover:scale-105"
           >
             <MessageCircle className="h-5 w-5" />
             Chat on WhatsApp

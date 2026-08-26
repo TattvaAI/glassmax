@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border bg-[var(--color-secondary)]">
+    <footer className="border-t border-border bg-secondary">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-4 lg:px-8">
         {/* Company Info */}
         <div>
@@ -75,7 +75,7 @@ export const Footer: React.FC = () => {
             </li>
             <li>
               <a href="/#about" className="hover:text-primary transition-colors">
-                About
+                About Us
               </a>
             </li>
             <li>
@@ -104,7 +104,7 @@ export const Footer: React.FC = () => {
               </a>
             </li>
             <li className="flex items-start gap-2">
-              <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-whatsapp)]" />
+              <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-whatsapp" />
               <a
                 href={getWhatsAppUrl()}
                 target="_blank"
@@ -143,7 +143,7 @@ export const Footer: React.FC = () => {
             href={getWhatsAppUrl()}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 inline-flex items-center gap-2 rounded-full bg-[var(--color-whatsapp)] px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition-transform hover:scale-105"
+            className="mt-5 inline-flex items-center gap-2 rounded-full bg-whatsapp hover:bg-whatsapp-hover px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition-all hover:scale-105"
           >
             <MessageCircle className="h-4 w-4" />
             Chat Now

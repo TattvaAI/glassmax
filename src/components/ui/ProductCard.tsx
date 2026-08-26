@@ -52,7 +52,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, index = 0 }) 
           href={getWhatsAppUrl(whatsappMessage)}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--color-whatsapp)] px-4 py-3 text-sm font-semibold text-white transition-transform hover:scale-[1.02] shadow-sm"
+          className="inline-flex items-center justify-center gap-2 rounded-full bg-whatsapp hover:bg-whatsapp-hover px-4 py-3 text-sm font-semibold text-white transition-all hover:scale-[1.02] shadow-sm"
         >
           <MessageCircle className="h-4 w-4" />
           WhatsApp

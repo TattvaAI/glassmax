@@ -49,9 +49,9 @@ export const FloatingActions: React.FC = () => {
         transition={{ delay: 0.6, type: 'spring', stiffness: 260, damping: 18 }}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.92 }}
-        className="group relative flex h-14 w-14 items-center justify-center rounded-full bg-[var(--color-whatsapp)] text-white shadow-elegant"
+        className="group relative flex h-14 w-14 items-center justify-center rounded-full bg-whatsapp hover:bg-whatsapp-hover text-white shadow-elegant transition-colors"
       >
-        <span className="absolute inset-0 animate-ping rounded-full bg-[var(--color-whatsapp)] opacity-30" />
+        <span className="absolute inset-0 animate-ping rounded-full bg-whatsapp opacity-30" />
         <MessageCircle className="h-7 w-7" />
       </motion.a>
 
